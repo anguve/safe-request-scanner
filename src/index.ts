@@ -24,7 +24,7 @@ const DEFAULT_SCAN_OPTIONS = {
 /**
  * Escanea una solicitud HTTP en busca de posibles problemas de seguridad.
  *
- * @param params - Los parámetros de la solicitud a escanear.
+ * @param params - Los parámetros de la solicitud a escanear ..
  * @returns Un array de cadenas que representan los problemas de seguridad encontrados.
  *
  * @remarks
