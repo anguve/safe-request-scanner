@@ -1,5 +1,5 @@
-import { checkDetectors } from '@utils/functions/checkDetectors';
-import { ScanOptions } from '@interfaces/ITScanOptions';
+import { ScanOptions } from '../interfaces/ITScanOptions';
+import { checkDetectors } from '../utils/functions/checkDetectors';
 
 /**
  * Escanea los datos de un objeto FormData en busca de posibles problemas de seguridad.

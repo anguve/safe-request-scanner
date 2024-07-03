@@ -1,5 +1,5 @@
-import { checkDetectors } from '@utils/functions/checkDetectors';
-import { ScanOptions } from '@interfaces/ITScanOptions';
+import { ScanOptions } from '../interfaces/ITScanOptions';
+import { checkDetectors } from '../utils/functions/checkDetectors';
 
 /**
  * Escanea las cookies proporcionadas y busca posibles problemas de seguridad.

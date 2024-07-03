@@ -11,13 +11,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "baseUrl": "./",
-    "paths": {
-      "@detectors/*": ["./src/detectors/*"],
-      "@interfaces/*": ["./src/interfaces/*"],
-      "@scan/*": ["./src/scan/*"],
-      "@utils/*": ["./src/utils/*"],
-    }
+
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

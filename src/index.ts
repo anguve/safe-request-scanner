@@ -1,10 +1,10 @@
-import { scanUrl } from '@scan/scanUrl';
-import { scanBody } from '@scan/scanBody';
-import { scanHeaders } from '@scan/scanHeaders';
-import { scanFormData } from '@scan/scanFormData';
-import { scanCookies } from '@scan/scanCookies';
-import { ScanOptions } from '@interfaces/ITScanOptions';
-import { ScanRequestParams } from '@interfaces/ITScanRequestParams';
+import { ScanRequestParams } from './interfaces/ITScanRequestParams';
+import { scanBody } from './scan/scanBody';
+import { scanCookies } from './scan/scanCookies';
+import { scanFormData } from './scan/scanFormData';
+import { scanHeaders } from './scan/scanHeaders';
+import { scanUrl } from './scan/scanUrl';
+import { ScanOptions } from './interfaces/ITScanOptions';
 
 const DEFAULT_OPTIONS: ScanOptions = {
   keys: true,

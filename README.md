@@ -192,6 +192,8 @@ Abre un Pull Request.
 Contacto
 Para cualquier consulta, puedes contactar a:
 
+https://github.com/anguve/safe-request-scanner
+
 Andres Gutierrez.
 
 Correo: sr.willardkraft@gmail.com

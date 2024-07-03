@@ -15,7 +15,6 @@ const XPATH_INJECTION_PATTERNS = [
   /' or ends-with\((.*?)\)/i,
   /" or ends-with\((.*?)\)/i,
   /\bsubstring\((.*?)\)/i,
-  /\/\*/i,
   /\.\.\/\.\./i,
   /\/\.\.\//i,
   /\bor\b|\band\b/i,

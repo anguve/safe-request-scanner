@@ -1,15 +1,15 @@
+import { detectCommandInjection } from '../../detectors/commandInjectionDetector';
+import { detectXXEInjection } from '../../detectors/detectXXEInjection';
+import { detectFileInclusion } from '../../detectors/fileInclusionDetector';
+import { detectLDAPInjection } from '../../detectors/ldapInjectionDetector';
 import {
   detectSQLInjection,
   isSQLSentence,
-} from '@detectors/sqlInjectionDetector';
-import { detectXSS } from '@detectors/xssDetector';
-import { detectCommandInjection } from '@detectors/commandInjectionDetector';
-import { detectLDAPInjection } from '@detectors/ldapInjectionDetector';
-import { detectXPathInjection } from '@detectors/xpathInjectionDetector';
-import { detectFileInclusion } from '@detectors/fileInclusionDetector';
-import { ScanOptions } from '@interfaces/ITScanOptions';
-import { ALERT_MESSAGES } from '@utils/constants/alertConstants';
-import { detectXXEInjection } from '@detectors/detectXXEInjection';
+} from '../../detectors/sqlInjectionDetector';
+import { detectXPathInjection } from '../../detectors/xpathInjectionDetector';
+import { detectXSS } from '../../detectors/xssDetector';
+import { ScanOptions } from '../../interfaces/ITScanOptions';
+import { ALERT_MESSAGES } from '../constants/alertConstants';
 
 /**
  * Comprueba diferentes detectores de seguridad en un valor dado y agrega los problemas detectados a una lista de problemas.

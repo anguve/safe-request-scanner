@@ -1,6 +1,6 @@
 {
   "name": "safe-request-scanner",
-  "version": "0.0.1-alpha",
+  "version": "0.4.5-alpha",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -22,6 +22,11 @@
     "security",
     "sql injection",
     "xss",
+    "xxe",
+    "file inclusion",
+    "ldap injection",
+    "xpath injection",
+    "command injection",
     "input validation"
   ],
   "author": "Andres Gutierrez",
